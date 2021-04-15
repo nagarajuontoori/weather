@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+body {
+  font-family: "Open Sans", serif;
+  background: linear-gradient(to right, #e67e22, #e74c3c);
+
+}
+*{
+
+  font-style: bold;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.wrapper {
+  background: linear-gradient(to right, #e67e22, #e74c3c);
+  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.fa-street-view{
+  color: tomato;
+  background-color: violet;
+  height: 125px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputfeild1{
+  padding:23px;
+  margin: 12px;
+  background-color: rgb(228, 25, 120);
+  font-style: bold;
+  font-size: large;
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputfeild2{
+  padding:23px;
+  margin: 12px;
+  background-color: rgb(8, 233, 109);
+  font-style: bold;
+  font-size: large;
+  border-style: hidden;
+  border-radius: 12px;
 }
+.heading{
+  margin-left: 313px;
+}
+.btn-primary{
+  padding:23px;
+  margin:12px;
+  background-color: rgb(216, 11, 11);
+  border-style: hidden;
+
+  font-style: bold;  
+  border-radius: 12px;
+  border-collapse: collapse;
+
+}
+.box{
+  background-color: #3cc5e7;
+  height: 555px;
+  width: 45%;
+  border-left: 23px;
+  margin-left: 25%;
+  border-radius: 23px;
+  text-align: center;
+  margin-top: 35px;
+  
+  
+}
+
+
+@media screen and (max-width: 700px) {
+ 
+  .heading{
+    margin-left: 113px;
+    font-size: medium;
+  }
+  .total{
+    background-color: #3cc5e7;
+    height: 555px;
+    width: 323px;
+    border-left: 23px;
+    margin-left: 35px;
+    border-radius: 23px;
+  }
+  
+.btn-primary{
+  padding:23px;
+  
+  background-color: rgb(139, 0, 0);
+  border-style: hidden;
+  border-collapse: collapse;
+
+
+  
+  font-size: large;  
+  
+  border-radius: 12px;
+}
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+  .title-container__title {
+    font-size: 25px;
+  }
+  .title-container__subtitle {
+    font-size: 14px;
+  }
+
+  .btn-primary{
+    padding:23px;
+    margin:12px;
+    background-color: darkblue;
+    border-style: hidden;
+  
+    font-style: bold; 
+    
+    border-radius: 2px;
+  }}
+
+
